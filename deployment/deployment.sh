@@ -227,3 +227,5 @@ awslocal apigatewayv2 create-stage \
   --api-id "$API_ID" \
   --stage-name prod \
   --auto-deploy
+
+echo "API Gateway ID: $API_ID"
