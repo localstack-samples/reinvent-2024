@@ -1,0 +1,85 @@
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.content-wrapper {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 500px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.explanation {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.prizes {
+  margin: 40px 0;
+}
+
+.prize-image {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.proceed-button {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prizes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.prize {
+  text-align: center;
+  color: white; 
+}
+
+.prize h2 {
+  background: linear-gradient(to right, #4a00e0, #342480); /* Gradient for headings */
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1.2em;
+}
+
+.prize img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.prize p {
+  font-size: 1em;
+  background: linear-gradient(to right, #4a00e0, #342480);
+  padding: 5px;
+  border-radius: 10px;
+}

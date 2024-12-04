@@ -1,0 +1,46 @@
+.mystery-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mystery-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.instructions {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.result-message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.result-message.success {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.result-message.error {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.back-button {
+  position: fixed;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
